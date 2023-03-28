@@ -1,3 +1,5 @@
+
+
 #!/usr/bin/python3
 """module for a singly linked list"""
 
@@ -79,4 +81,4 @@ class SinglyLinkedList:
             location = location.next_node
         if location.next_node:
             new.next_node = location.next_node
-        location.next_node = 
+        location.next_node = new 
